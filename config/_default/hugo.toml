@@ -1,0 +1,28 @@
+title = "Sink or Swim"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+name = "Kerria"
+headline = "Everybody Wants Some"
+image = "author.jpg"
+links = [
+  { link = { href = "https://ews.ink", text = "Blog", icon = "blog", target = "_self" } },
+  { dev = { href = "https://osrp.run", text = "Developing" } },
+  { github = "https://github.com/unacro" },
+  { email = "mailto:po@ews.ink" },
+  { discord = "https://nav.osrp.run/s/discord" },
+  # { steam = "https://nav.osrp.run/s/steam" },
+  # { link = { href = "styles/", text = "All the link styles", icon = "afadian", target = "_self" } },
+]
+
+[params.author]
+name = "Kerria"
+
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
